@@ -74,7 +74,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/AC_button"
         app:layout_constraintTop_toTopOf="@+id/percent_button"
-        tools:text="+-" />
+        android:text="+-" />
 
     <Button
         android:id="@+id/percent_button"
@@ -95,13 +95,14 @@
         android:id="@+id/bagi_button"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:layout_weight="1"
         android:background="@drawable/round_button_warm"
         android:backgroundTint="@null"
         android:text="/"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/kali_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/percent_button"
@@ -161,6 +162,7 @@
         android:background="@drawable/round_button_warm"
         android:text="X"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/kurang_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/sembilan_button"
@@ -217,6 +219,7 @@
         android:background="@drawable/round_button_warm"
         android:text="-"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toTopOf="@+id/tambah_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/enam_button"
@@ -276,6 +279,7 @@
         android:background="@drawable/round_button_warm"
         android:text="+"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toTopOf="@+id/equal_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tiga_button"
